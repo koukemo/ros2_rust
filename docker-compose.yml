@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  ros2-rust-workspace:
+    container_name: ros2-rust-workspace
+    build: .
+    tty: true
+    network_mode: "host"
+    #command: 
+      

@@ -1,0 +1,9 @@
+# Setup ROS2
+humble-setup() {
+    source /opt/ros/humble/setup.bash
+}
+
+# Change ROS_DOMAIN_ID
+change_domain-id() {
+    export ROS_DOMAIN_ID=$1
+}
